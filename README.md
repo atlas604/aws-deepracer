@@ -4,7 +4,7 @@
 
 ---
 
-#### Step 1 - Installing NVIDIA Drivers
+#### Step 1 - Install NVIDIA Drivers
 
 ```
 sudo add-apt-repository ppa:graphics-drivers
@@ -14,10 +14,13 @@ screen
 sudo apt install nvidia-driver-430 && sudo reboot 
 ```
 
-#### Step 2 - Setting up an Anaconda Environment
+Verify the Installation `nvidia-smi`
+
+#### Step 2 - Set up an Anaconda Environment
 
 ```
 cd /tmp
+sudo apt install curl
 curl -O https://repo.anaconda.com/archive/Anaconda3-2019.03-Linux-x86_64.sh
 ```
 
