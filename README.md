@@ -31,7 +31,20 @@ conda activate sagemaker
 conda install -c conda-forge awscli 
 ```
 
+```
+git clone --recurse-submodules https://github.com/crr0004/deepracer.git
+```
 
+```
+cd deepracer
+pip install -U sagemaker-python-sdk/ pandas 
+pip install urllib3==1.24.3
+pip install ipython
+```
+
+#### Step 4 - Install Docker
+
+https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
 
 
