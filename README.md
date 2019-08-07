@@ -19,7 +19,7 @@ sudo apt install nvidia-cuda-toolkit
 ```
 
 
-Verify the Installations
+Verify the installations
 ```
 nvidia-smi
 nvcc --version
@@ -60,7 +60,7 @@ https://docs.docker.com/install/linux/docker-ce/ubuntu/
 https://docs.docker.com/install/linux/linux-postinstall/
 
 
-Configure Default Docker Runtime to nvidia-docker 2.0
+Configure default docker runtime to nvidia-docker 2.0
 
 https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)
 
@@ -76,7 +76,7 @@ wget https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.12.0-c
 docker build -t 520713654638.dkr.ecr.us-west-2.amazonaws.com/sagemaker-tensorflow-scriptmode:1.12.0-gpu-py3 --build-arg py_version=3 --build-arg framework_installable=tensorflow_gpu-1.12.0-cp36-cp36m-linux_x86_64.whl -f Dockerfile.gpu .
 ```
 
-Verify the Images
+Verify the images
 
 ```
 docker images
