@@ -40,6 +40,8 @@ conda activate sagemaker
 conda install -c conda-forge awscli 
 ```
 
+#### Step 3 - 
+
 ```
 git clone --recurse-submodules https://github.com/crr0004/deepracer.git
 ```
@@ -55,5 +57,10 @@ pip install ipython
 
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
+Configure Default Docker Runtime to NVIDIA
 
+https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)
+
+
+#### Step 5 
 
