@@ -14,7 +14,16 @@ screen
 sudo apt install nvidia-driver-430 && sudo reboot 
 ```
 
-Verify the Installation `nvidia-smi`
+```
+sudo apt install nvidia-cuda-toolkit
+```
+
+
+Verify the Installations
+```
+nvidia-smi
+nvcc --version
+```
 
 #### Step 2 - Set up an Anaconda Environment
 
