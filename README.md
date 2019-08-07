@@ -57,6 +57,9 @@ pip install ipython
 
 https://docs.docker.com/install/linux/docker-ce/ubuntu/
 
+https://docs.docker.com/install/linux/linux-postinstall/
+
+
 Configure Default Docker Runtime to NVIDIA
 
 https://github.com/NVIDIA/nvidia-docker/wiki/Installation-(version-2.0)
