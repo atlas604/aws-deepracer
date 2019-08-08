@@ -98,4 +98,27 @@ docker images
 #### Step 5 - Build the sagemaker-container
 
 
+#### Step 6 - Setup MinIO
 
+```
+wget https://dl.min.io/server/minio/release/linux-amd64/minio
+chmod +x minio
+sudo mv minio /usr/local/bin
+```
+
+```
+sudo vi /etc/default/minio
+```
+
+paste the following
+
+```
+# Volume to be used for MinIO server.
+MINIO_VOLUMES="~/deepracer/data"
+# Access Key of the server.
+MINIO_ACCESS_KEY=minio
+# Secret key of the server.
+MINIO_SECRET_KEY=miniokey
+```
+
+type `:wq` and enter to write the file and quit
