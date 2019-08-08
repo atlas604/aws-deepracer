@@ -1,5 +1,18 @@
 # AWS DeepRacer
 
+Resources:
+
+https://github.com/crr0004/deepracer
+
+https://github.com/alexschultz/deepracer-for-dummies
+
+https://medium.com/@jonathantse/train-deepracer-model-locally-with-gpu-support-29cce0bdb0f9
+
+https://medium.com/@autonomousracecarclub/how-to-run-deepracer-locally-to-save-your-wallet-13ccc878687
+
+
+
+
 ### Local Environment Setup (Ubuntu 18.04.2 LTS)
 
 ---
