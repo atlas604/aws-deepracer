@@ -123,7 +123,7 @@ estimator = RLEstimator(entry_point="training_worker.py",
                                          "epsilon_steps" : 10000,
                                          "beta_entropy" : 0.01,
                                          "discount_factor" : 0.999,
-                                         "loss_type": "mean squared error",
+                                         "loss_type": "huber",
                                          "num_episodes_between_training" : 20,
                                          "term_cond_max_episodes" : 100000,
                                          "term_cond_avg_score" : 100000
