@@ -27,8 +27,8 @@ def reward_function(params):
         reward *= 0.8
 
     # Speed reward
-    speed_reward = speed / 16.0
-    reward += speed_reward
+    speed_reward = 1 + speed / 16.0
+    reward *= speed_reward
     
     # Progress reward
     reward += progress / 100.0
