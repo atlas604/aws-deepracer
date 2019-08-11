@@ -5,9 +5,9 @@ def reward_function(params):
     speed = params['speed']
     
     if all_wheels_on_track:
-        reward = progress / 100 * speed
+        reward = progress * 0.5(speed)
     
     else:
-        reward = 1e-3
+        reward = -1
     
     return float(reward)
